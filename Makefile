@@ -1,4 +1,3 @@
-# Replace this with your own github.com/<username>/<repository>
 GO_MODULE := github.com/rolandadifan/my-grpc-proto
 
 .PHONY: clean
