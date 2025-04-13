@@ -63,7 +63,6 @@ protoc-openapiv2-gateway:
 	protoc -I . --openapiv2_out ./protogen/gateway/openapiv2 \
 	--openapiv2_opt logtostderr=true \
 	--openapiv2_opt output_format=yaml \
-  --openapiv2_opt openapi_configuration=./grpc-gateway/config-openapi.yml \
 	--openapiv2_opt generate_unbound_methods=true \
 	--openapiv2_opt allow_merge=true \
 	--openapiv2_opt merge_file_name=merged \
